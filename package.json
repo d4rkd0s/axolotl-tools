@@ -4,6 +4,7 @@
   "description": "A free open source, hosted on Heroku, set of small tools for Axolotl owners!",
   "main": "index.js",
   "scripts": {
+    "start": "npm install && http-server -a 0.0.0.0 -p $PORT -d false ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/d4rkd0s/axolotl-tools/issues"
   },
-  "homepage": "https://github.com/d4rkd0s/axolotl-tools#readme"
+  "homepage": "https://github.com/d4rkd0s/axolotl-tools#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }

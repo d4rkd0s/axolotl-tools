@@ -1,0 +1,25 @@
+{
+  "name": "axolotl-tools",
+  "version": "1.0.0",
+  "description": "A free open source, hosted on Heroku, set of small tools for Axolotl owners!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4rkd0s/axolotl-tools.git"
+  },
+  "keywords": [
+    "axolotl-tools",
+    "axolotls",
+    "axolotl",
+    "tools"
+  ],
+  "author": "d4rkd0s.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d4rkd0s/axolotl-tools/issues"
+  },
+  "homepage": "https://github.com/d4rkd0s/axolotl-tools#readme"
+}

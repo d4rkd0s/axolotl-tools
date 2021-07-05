@@ -10,34 +10,40 @@
     <meta name="application-name" content="Axolotl Tools">
     <meta name="msapplication-TileColor" content="#e91e63">
     <meta name="theme-color" content="#e91e63">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/pure-min.css">
+    <link rel="stylesheet" href="/assets/css/grids-responsive-min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Axolotl Tools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCN5NC09Y8"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M1ZWVH279D"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         
-        gtag('config', 'G-WCN5NC09Y8');
+        gtag('config', 'G-M1ZWVH279D');
     </script>
     <!-- End Google Analytics -->
-    <style> html, body { background: #FCE4EC; } </style>
 </head>
 <body>
-    <div class="pure-menu pure-menu-horizontal">
-        <a href="#" class="pure-menu-heading pure-menu-link">Axolotl Tools</a>
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">Test 1</a>
-            </li>
-            <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">Test 2</a>
-            </li>
-            <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">Test 3</a>
-            </li>
-        </ul>
+    <div id="layout" class="pure-g">
+        <div class="pure-menu pure-menu-horizontal">
+            <a href="#" class="pure-menu-heading">
+                <img src="/assets/images/logo.png" id="logo" alt="Axolotl Tools">
+            </a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <a href="#" class="pure-menu-link fancy bold">Water Weight Calc</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 class="fancy">Welcome to Axolotl Tools,</h1>
+            <h2 class="fancy">An open source collection of tools for Axolotl owners!</h2>
+        </div>
     </div>
 </body>
 </html>

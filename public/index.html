@@ -10,34 +10,34 @@
     <meta name="application-name" content="Axolotl Tools">
     <meta name="msapplication-TileColor" content="#e91e63">
     <meta name="theme-color" content="#e91e63">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
     <title>Axolotl Tools</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCN5NC09Y8"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-WCN5NC09Y8');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-WCN5NC09Y8');
     </script>
     <!-- End Google Analytics -->
-    <style>
-        html, body {
-            background: #FCE4EC;
-        }
-        #logo {
-            width: 80%;
-            max-height: 120px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 25%;
-            width: 50%;
-            user-select: none;
-        }
-    </style>
+    <style> html, body { background: #FCE4EC; } </style>
 </head>
 <body>
-    <img src="/assets/images/logo.svg" id="logo">
+    <div class="pure-menu pure-menu-horizontal">
+        <a href="#" class="pure-menu-heading pure-menu-link">Axolotl Tools</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Test 1</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Test 2</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Test 3</a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
